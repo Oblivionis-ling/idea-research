@@ -1,0 +1,18 @@
+# Publish only the reusable skill and its portable version/test documentation.
+# Research materials, task instructions, local evidence, and generated reports stay local.
+/*
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/VERSION
+!/VALIDATION.md
+!/.agents/
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/idea-research/
+/.agents/skills/idea-research/*
+!/.agents/skills/idea-research/SKILL.md
+!/tests/
+/tests/*
+!/tests/idea-research-cases.md
